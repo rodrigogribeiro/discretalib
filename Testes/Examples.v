@@ -13,9 +13,8 @@ Section PROPLOGIC.
     id H1.
   Qed.
   
-  Lemma teste2 : A /\ B -> B /\ A.
+  Lemma teste2 (H : A /\ B) : B /\ A.
   Proof.
-    intro_implicacao.
     intro_e.
     +
       elim_e H.
