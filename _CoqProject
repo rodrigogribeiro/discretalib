@@ -1,0 +1,5 @@
+-R . discretalib
+
+Logica/LogicaProposicional.v
+Logica/LogicadePredicados.v
+Testes/Examples.v
